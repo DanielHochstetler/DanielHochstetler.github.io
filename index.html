@@ -4,6 +4,7 @@
  <meta charset="utf-8">
  <title>Daniel's Website</title>
  <style type="text/css"> 
+  
   body {
   background-color: #8fcbcc;}
 
@@ -22,7 +23,7 @@ img.resize {
 }
 
 .content {
-  max-width: 700px;
+  max-width: 800px;
   margin: auto;
   background: white;
   padding: 10px;
@@ -36,8 +37,10 @@ img.resize {
 }
 
 #link-container {
-    text-align: center;
+    text-align: left;
 }
+
+
 
 #link {
     background: black;
@@ -46,24 +49,62 @@ img.resize {
     padding: 10px;
 }
 
+#link-container2 {
+    text-align: center
+}
+
+div.a {
+text-align: center;
+}
+
+div.b {
+  text-align: left;
+}
+        
+/* This is the end of the stylesheets! */
  </style>
 
+
+
+
  </head>
-<body>
+
+ <body>
+
+
     <div class="content">
         <div id="link-container">
 
-    <h1>Hi, my name is Daniel Hochstetler.<br> Thanks for stopping by.</h1>
+    
+<div class="links">
+<div id="link-container2">
+<figure>
+<!-- This is where my JavaScript is. -->
+<script src="resume-site/scripts/add-content.js"></script>
+
+
+<h1>My name is Daniel Hochstetler.<br> Thanks for stopping by.</h1>
+
+<br>
+
  <img class="center" class="resize" src="resume-site/images/mt-rushmore.jpeg" alt="This is Daniel">
- 
- <div id="link-container">
+ <figcaption>Me and my beautiful family.</figcaption>
+ </figure>
+ <div>
+     
+    <!-- The links to email and buy shirts are down here. -->
+ <div class="links">
+     <div id="link-container2">
+
  <h1><a href="mailto:danielhochstetler@gmail.com">Email Me</a></h1>
  <h1><a href="https://www.amazon.com/dp/B07NRCNPS1?customId=B07537HNMY&th=1" target="_blank">Buy a Shirt</a></h1><br>
- </div>
+</div>
  
+
  <h1>After 15 years of screen printing...<br>The time to switch from web spray to web development has come.</h1>
 
- <p>I started screen printing on August 3rd, 2003 and have been in the industry non stop since that day, 
+ <div class="b">
+<p>I started screen printing on August 3rd, 2003 and have been in the industry non stop since that day, 
   minus a few weeks of moving across the country...3 times. As of today I have not been in a print shop 
   since November 12th, 2018. What have I been doing? Learning web development all day every day. 
   During the last 6 years of being in the screen printing industry I had gone from Printer to 
@@ -71,33 +112,57 @@ img.resize {
   but did not design daily until 2013 when I had the wonderful opportunity to get to learn Adobe 
   Illustrator on the job while creating apparel for screen printing. I fell in love with Illustrator 
   and have used it almost every single day since learning it.</p>
+</div>
 
+<div class="b">
 <p>My screen printing knowledge and experience has given me the ability to move around the country 
 and instantly have a job as soon as I got to a new location. I learned so much over the years and 
 have progressed as an artist and a designer. It has been amazing, but I'm done.</p>
+<div>
 
+<div class="b">
 <p>Over the last 8 years I met the love of my life while living in Portland, Oregon, got married, became a father and then 
 moved across the country from Portland to Holmes County, Ohio. I lived in a tipi and then in a cabin in the largest 
 amish community on the planet. After that I moved back across the country to downtown Portland again working for an awesome 
 apparel company. Recently I took the bold step to buy a home 2 hours outside of Portland in the beautiful Columbia River Gorge 
 in the middle of nowhere, and have started working remotely from my home office as a designer while learning developing 
 everyday all day.</p>
+</div>
 
+<div class="b">
 <p>I have realized that I absolutely love developing and am ready to commit to this field for the next 25 years. 
 It's like nothing else I've ever done, but it has aspects of everything I love. I get to build things from scratch, 
 as I have always loved taking ideas, mocking them up, turning them into prototypes and then creating a final product 
 from start to finish. I love learning and with developing I get to learn new things every day on my path towards 
 developing for a living. Life is good.</p>
+</div>
 
+<div class="a">
+<figure>
 <img class="center" class="resize" src="resume-site/images/remote-workspace.jpeg" alt="My Remote Office">
-<hr>
+<figcaption>My remote home office.</figcaption>
+</figure>
+</div>
 
- <h1>The Resume of Software Developer Daniel Hochstetler</h1>
+<hr>
+<div class="a">
+    <!-- print page link below -->
+<h2><a href="javascript:window.print();">Print Page</a></h2>
+</div>
+<div class="a">
+<h1>The Resume of Daniel Hochstetler</h1>
+</div>
  
+<div class="a">
+<h2>Remote Software Developer</h2>
+</div>
+
  <h2>About Me</h2>
- <p>The moment I created my first "Hello World" I was hooked.
+<p>The moment I created my first "Hello World" I was hooked.<br><br>My love of solving logical problems, building useful things
+and experimenting with new technologies, coupled with my appetite for continually learning, improving and growing have
+fueled my passion for developing.
   Software Development has given me engaging challenges that continuously improve my skills and allow me to learn 
-  new technologies on a daily basis. It has become my full-blown passion and has never been just a job for me. 
+  new technologies on a daily basis. I love it. It has become my full-blown passion and has never been just a job for me. 
   Below you'll find projects I've completed that showcase my skills and general background in developing software.
  
 <h2>Experience</h2>
@@ -107,5 +172,10 @@ developing for a living. Life is good.</p>
 <h2>Professional References</h2>
 </h2>
 <div>
+
+<div class="a">
+        <marquee direction="left" bgcolor="#8fcbcc">You can hire Me! Email me above to set up an interview today.</marquee>
+</div>
+
 </body>
 </html>
